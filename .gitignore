@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production Build Outputs
+dist/
+dist-ssr/
+build/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Editor & IDE Directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvsopt
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs & Temporary Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+tmp/
+.cache/
